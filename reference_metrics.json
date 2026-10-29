@@ -1,0 +1,22 @@
+{
+  "project": "Piper nigrum molecular descriptor clustering",
+  "algorithm": "KMeans",
+  "n_compounds": 49,
+  "features": [
+    "Gap_eV",
+    "BDE_MIN_kcal_moL",
+    "Carga_no_C"
+  ],
+  "best_k": 2,
+  "silhouette": 0.49268707585340704,
+  "cluster_sizes": {
+    "0": 11,
+    "1": 38
+  },
+  "pca_explained_variance": 0.8447192567927817,
+  "stability_runs": 30,
+  "unique_partitions": 1,
+  "ari_min": 1.0,
+  "ari_mean": 1.0,
+  "ari_max": 1.0
+}
